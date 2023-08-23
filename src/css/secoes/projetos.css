@@ -18,12 +18,14 @@
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
     -webkit-transition: all .3s ease;
-    position: relative;            
+    position: relative;        
 }
 
 .projetos .container-projetos .projeto:hover,
 .projetos .container-projetos .projeto:hover .informacoes-projeto {
     opacity: 0.8;
+    transition: all 0.3s ease;
+    font-size: 25px;
 }
 
 .projetos .container-projetos .projeto img {
