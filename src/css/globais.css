@@ -9,7 +9,9 @@ html {
   }
   
   body {
-    background-color: var(--cor-fundo-cinza-escuro);
+    /* background-color: var(--cor-fundo-cinza-escuro); */
+    background: url('../imagens/fundo.png') no-repeat;
+    background-size: cover;
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }

@@ -6,7 +6,9 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+.fundo-habilidades{
+    background-color: #023b5d;
+}
 .habilidades .container-habilidades .informacoes{
     max-width: 350px;
     padding: 40px 20px;    

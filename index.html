@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>José Kaio - Desenvolvedor Frontend</title>
+  <title>José Kaio - Desenvolvedor de Software</title>
 
   <link rel="stylesheet" href="src/css/font-awesome.css" />
   <link rel="stylesheet" href="src/css/reset.css" />
@@ -19,12 +19,14 @@
   <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
   <link rel="stylesheet" href="src/css/secoes/projetos.css" />
   <link rel="stylesheet" href="src/css/secoes/footer.css" />
+  
+  <script src="https://unpkg.com/scrollreveal"></script>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 
 <body>
-  <header class="header">
+  <header class="header ">
     <div class="container">
       <div class="row justify-content-between alinhar-itens-no-centro">
         <a href="#">
@@ -42,6 +44,7 @@
             <li><a href="#sobre-mim">Sobre mim</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#projetos">Meus projetos</a></li>
+            <li><a  target="_blank" href="src/imagens/Desenvolvedor de Software .pdf" >Currículo</a></li>
           </ul>
         </nav>
       </div>
@@ -52,9 +55,9 @@
     <div class="container">
       <div class="row full-screen alinhar-itens-no-centro">
         <div class="texto-home">
-          <p>Olá 🖖,</p>
-          <h1>Sou o José Kaio</h1>
-          <h2>Desenvolvedor Frontend Júnior</h2>
+          <p>Olá,</p>
+          <h1>Me chamo José Kaio</h1>
+          <h2>Sou Desenvolvedor de Software</h2>
 
           <div class="redes-sociais">
             <a target="_blank" href="https://www.linkedin.com/in/jos%C3%A9-kaio-a3b3a6274/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
@@ -87,28 +90,22 @@
         </div>
         <div class="informacoes-sobre-mim">
           <p>
-            <strong>Olá! Me chamo José Kaio e sou um desenvolvedor FrontEnd em
-              formação!</strong>
-              Sou apaixonado pela área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+            <strong>Olá! Me chamo José Kaio e sou Desenvolvedor de Software</strong>
           </p>
 
           <p>
-           Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+            Profissional apaixonado por tecnologia com experiência em desenvolvimento de software, abrangendo desde o desenvolvimento web, Frontend e Backend até o mobile. 
           </p>
-
           <p>
-            Ah, Estou sempre disposto a aprender novas tecnologias. 💜
+            Comprometido com a aprendizagem contínua e aprimoramento de habilidades para estar na vanguarda da evolução tecnológica. Ansioso para contribuir em projetos desafiadores e ambientes que valorizem inovação e crescimento profissional.
           </p>
 
-          <div class="botoes">
-            <a target="_blank" href="src/imagens/Front-End Júnior.pdf" class="botao outer-shadow">Veja meu CV</a>
-          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="habilidades section" id="habilidades">
+  <section class="habilidades section fundo-habilidades" id="habilidades">
     <div class="container">
       <div class="row">
         <div class="section-title">
@@ -144,6 +141,34 @@
           </div>
           <h3>React</h3>
         </div>
+        
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-mysql-plain"></i>          
+          </div>
+          <h3>Mysql e Firebird</h3>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-python-plain"></i>          
+          </div>
+          <h3>Python</h3>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-pandas-plain"></i>          
+          </div>
+          <h3>Pandas</h3>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon-plotly-plain"></i>
+          </div>
+          <h3>Dash Plotly</h3>
+        </div>
 
         <div class="informacoes github">
           <div class="logo">
@@ -172,12 +197,12 @@
 
       <div class="container-projetos">
         <div class="projeto">        
-            <img src="src/imagens/inspiri-se-fotografias.netlify.app_ (2).png" alt="Nome do projeto" />
+            <img src="src/imagens/smart-atendimento.PNG" alt="Nome do projeto" />
             <h3>Smart Atendimento</h3>
             <div class="informacoes-projeto">          
-              <p>Projeto feito utilizando HTML, CSS e JavaScript.</p></br>
+              <p>Desenvolvido com as tecnologias HTML, CSS e JavaScript. Plataforma por assinatura de atendimento ao cliente.</p></br>
               <a href="https://879372.github.io/smart-atendimentoteste/" target="_blank">
-                <p>🔗 GitHub Pages</p>
+                <p>🔗 Deploy</p>
               </a>
               <a href="https://github.com/879372/smart-atendimentoteste" target="_blank">
                 <p>🔗 Repositório</p>
@@ -186,26 +211,25 @@
         </div>
 
         <div class="projeto">        
-            <img src="src/imagens/879372.github.io_validacao-forms_.png" alt="Nome do projeto" />
-            <h3>Validation Form</h3>
+            <img src="src/imagens/modapay.PNG" alt="Nome do projeto" />
+            <h3>ModaPAY</h3>
             <div class="informacoes-projeto">          
-              <p>Projeto feito utilizando HTML, CSS e JavaScript.</p></br>
-              <a href="https://879372.github.io/validacao-forms/" target="_blank">
-                <p>🔗 GitHub Pages</p>
-              </a>
-              <a href="https://github.com/879372/validacao-forms" target="_blank">
-                <p>🔗 Repositório</p>
+              <p>Foram feitas alterações nesse layout com as tecnologias HTML, CSS e JavaScript. Site de processadora de pagamento via pix.
+                Obs: API documentada por mim. Clicar no Botão 'Documentação API' para acessar a api no Gitbook
+              </p></br>
+              <a href="https://modapay.com.br" target="_blank">
+                <p>🔗 Deploy</p>
               </a>
             </div>     
         </div>
 
         <div class="projeto">     
-            <img src="src/imagens/geradordeconselhos_.png" alt="Nome do projeto" />
-            <h3>Advice generator</h3>
+            <img src="src/imagens/conselho.PNG" alt="Nome do projeto" />
+            <h3>Gerador de Conselhos API</h3>
             <div class="informacoes-projeto">          
-              <p>Projeto feito utilizando HTML, CSS, JavaScript e API.</p></br>
+              <p>Desenvolvido com as tecnologias HTML, CSS, JavaScript e a API https://api.adviceslip.com.</p></br>
               <a href="https://879372.github.io/geradordeconselhos/" target="_blank">
-                <p>🔗 GitHub Pages</p>
+                <p>🔗 Deploy</p>
               </a>
               <a href="https://github.com/879372/geradordeconselhos" target="_blank">
                 <p>🔗 Repositório</p>
@@ -214,17 +238,16 @@
         </div>
 
         <div class="projeto">
-            <img src="src/imagens/879372.github.io_projeto-github-api_.png" alt="Nome do projeto" />
-            <h3>GitHub API</h3>
+            <img src="src/imagens/dashboardmoda.png" alt="Nome do projeto" />
+            <h3>DashBoard Modabank</h3>
             <div class="informacoes-projeto">          
-              <p>Projeto feito utilizando HTML, CSS, JavaScript, API e React.</p></br>
-              <a href="https://879372.github.io/projeto-github-api/" target="_blank">
-                <p>🔗 GitHub Pages</p>
+              <p>Desenvolvido com as tecnologias Python e suas libs, pandas, Dash e Plotly. Dashboard da processadora de pagamento pix que monitora, entradas, saidas, taxas das empresas que fizera a integração. A base de dados é o Banco MySql.</p></br>
+              <a href="https://dashboard.modapay.com.br" target="_blank">
+                <p>🔗 Deploy</p>
               </a>
-              <a href="https://github.com/879372/projeto-github-api" target="_blank">
+              <a href="#" target="_blank">
                 <p>🔗 Repositório</p></br>
               </a>
-              <p>Em conclusão...</p>
             </div> 
         </div>
       </div>
@@ -242,6 +265,7 @@
       </div>
     </div>
   </footer>
+ <script src="src/script/script.js"></script>
 </body>
 
 </html>

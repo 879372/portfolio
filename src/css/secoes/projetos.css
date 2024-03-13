@@ -1,8 +1,10 @@
 /* PROJETOS */
 .projetos .container-projetos {
     display: grid;        
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-rows: repeat(auto-fill, 400px);
+
+   margin: 0 auto;
     grid-gap: 20px;       
 }
 
@@ -64,4 +66,5 @@
     padding-bottom: 10px;
     padding-top: 10px;
     bottom: 0;
+    color: var(--cor-primaria);
 }

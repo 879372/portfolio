@@ -1,7 +1,13 @@
 .header {
-    padding: 30px 15px;
+    padding: 20px 10px;
+    height: 100px;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
 }
-
+.esconder{
+    background-color: #023b5d;
+}
 .header .logo {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
@@ -35,6 +41,7 @@
     border-radius: 50px;
     letter-spacing: 1px;
     user-select: none;
+
 }
 
 .header nav ul li a:hover{
