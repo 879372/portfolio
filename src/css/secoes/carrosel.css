@@ -1,0 +1,35 @@
+.carrossel {
+    display: none; /* Esconde o carrossel inicialmente */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .swiper-container {
+    width: 80%;
+    height: 80%;
+  }
+  .swiper-wrapper {
+    gap: 100px;
+  }
+  #fecharCarrossel {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    background-color: #ff4c4c; /* cor do botão */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    z-index: 50;
+  }
+  #fecharCarrossel:hover {
+    background-color: #ff1c1c; /* cor ao passar o mouse */
+  }

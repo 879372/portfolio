@@ -21,3 +21,25 @@ sr.reveal('.container-projetos', { duration: 2000 });
 // sr.reveal('.image-fazendo', { duration: 2000 });
 // sr.reveal('.image-fazendo', { duration: 2000 });
 // sr.reveal('.image-fazendo', { duration: 2000 });
+document.addEventListener('DOMContentLoaded', function () {
+  var swiper = new Swiper('.swiper-container', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  var projetos = document.querySelectorAll('.projeto');
+  var carrossel = document.getElementById('carrossel');
+  var fecharCarrossel = document.getElementById('fecharCarrossel');
+
+  projetos.forEach(function (projeto) {
+    projeto.addEventListener('click', function () {
+      carrossel.style.display = 'flex';
+    });
+  });
+
+  fecharCarrossel.addEventListener('click', function () {
+    carrossel.style.display = 'none';
+  });
+});
